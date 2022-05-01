@@ -12,7 +12,7 @@ public  void Move()
    {
       if(h>0)
        transform.LocalRotation=Quaternion.Euler(0,0,0);
-      else
+      elsewoz
        transform.LocalRotation=Quaternion.Euler(0,180,0);
        transform.Translate(h*Vector3.right*Time.deltaTime);
        ani.Setbool{"Run",true};
